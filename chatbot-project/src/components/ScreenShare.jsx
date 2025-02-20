@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import { FaTimes, FaDesktop } from "react-icons/fa";
 
+import '../styles/ScreenShare.css'
 
 const ScreenShare = () => {
   const [stream, setStream] = useState(null);

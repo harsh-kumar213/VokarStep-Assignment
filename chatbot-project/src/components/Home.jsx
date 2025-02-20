@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaMicrophone } from "react-icons/fa";
 import SpeechRecognition, { useSpeechRecognition } from "react-speech-recognition";
 
+import '../styles/Home.css'
 
 const Home = () => {
   

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaTimes, FaPaperPlane } from "react-icons/fa";
 
+import '../styles/Chat.css'
 
 const Chat = ({ isOpen, onClose }) => {
   const [messages, setMessages] = useState([{ text: "Hi! How can I help you?", sender: "bot" }]);

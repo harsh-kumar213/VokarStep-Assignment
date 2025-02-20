@@ -1,0 +1,17 @@
+.navbar{
+    width: inherit;
+    height: 1rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+    background: linear-gradient(to right, #c91faf, #2575fc);
+  }
+  .navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  

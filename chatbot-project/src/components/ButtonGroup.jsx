@@ -3,6 +3,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdScreenShare } from "react-icons/md";
 import { BsChatDots } from "react-icons/bs";
 
+import '../styles/Buttons.css'
+
 const ButtonGroup = ({ isChatActive, setIsChatActive, activeTab, setActiveTab }) => {
   const buttons = [
     { id: "call", icon: <FaPhoneAlt />, label: "Call" },
